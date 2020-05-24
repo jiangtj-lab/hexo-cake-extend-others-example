@@ -35,7 +35,7 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.28"
 
-"@jiangtj/hexo-renderer-marked@^2.0.1":
+"@jiangtj/hexo-renderer-marked@2.0.1", "@jiangtj/hexo-renderer-marked@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@jiangtj/hexo-renderer-marked/-/hexo-renderer-marked-2.0.1.tgz#34de5a8cdfc8f0a3589dd428826f515752794bb0"
   integrity sha512-HpGQNjFmrrM7rDQIl3quGAaawxlJHTDOaOnUwcHYr8cLMlgYvGAc6PqunxIzT6S0+1MTmtMcjhxjnPhGazxRJA==
@@ -43,7 +43,7 @@
     hexo-util "^1.6.1"
     marked "^1.0.0"
 
-"@jiangtj/hexo-renderer-stylus@^1.1.0":
+"@jiangtj/hexo-renderer-stylus@1.1.0", "@jiangtj/hexo-renderer-stylus@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@jiangtj/hexo-renderer-stylus/-/hexo-renderer-stylus-1.1.0.tgz#d4eeac47202250b51a695226464ec6e566c04eeb"
   integrity sha512-Mdr5dVJP1EOjZKW9Y+Gy2TBGlAe0BVBMwx5aGpTO+zhLiA4Sf4ixRxia8O8QunFn0DCvwFLpc0ulCEnwkMFPIQ==
@@ -659,7 +659,7 @@ hexo-filter-marked-highlight@^1.0.0:
     prismjs "^1.19.0"
     strip-indent "^3.0.0"
 
-hexo-fontawesome@^2.1.0:
+hexo-fontawesome@2.1.0, hexo-fontawesome@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/hexo-fontawesome/-/hexo-fontawesome-2.1.0.tgz#2d82ca826973c592f05e29e18fc60778bc51d7c5"
   integrity sha512-sSsmyJqVV0K40UYFaeAF9f1ZP0ntjWMFz5tSHwo5je3yVYabbaS2o9bJC1qflp9mC7W4MI5d6LvaK/VghSz+7w==
@@ -687,28 +687,28 @@ hexo-fs@^2.0.0:
     escape-string-regexp "^2.0.0"
     graceful-fs "^4.1.11"
 
-hexo-generator-archive@^1.0.0:
+hexo-generator-archive@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-1.0.0.tgz#ad2afb12232a65e2f8608fc1ca3f19162fb63786"
   integrity sha512-24TeanDGpMBUIq37DHpSESQbeN6ssZ06edsGSI76tN4Yit50TgsgzP5g5DSu0yJk0jUtHJntysWE8NYAlFXibA==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-category@^1.0.0:
+hexo-generator-category@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
   integrity sha512-kmtwT1SHYL2ismbGnYQXNtqLFSeTdtHNbJIqno3LKROpCK8ybST5QVXF1bZI9LkFcXV/H8ilt8gfg4/dNNcQQQ==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-index@^1.0.0:
+hexo-generator-index@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
   integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-tag@^1.0.0:
+hexo-generator-tag@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-tag/-/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
   integrity sha512-JDoB2T1EncRlyGSjuAhkGxRfKkN8tq0i8tFlk9I4q2L6iYxPaUnFenhji0oxufTADC16/IchuPjmMk//dt8Msg==
@@ -735,14 +735,14 @@ hexo-pagination@1.0.0:
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
   integrity sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA==
 
-hexo-renderer-ejs@^1.0.0:
+hexo-renderer-ejs@1.0.0, hexo-renderer-ejs@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
   integrity sha512-O925i69FG4NYO62oWORcPhRZZX0sPx1SXGKUS5DaR/lzajyiXH5i2sqnkj0ya0rNLXIy/D7Xmt7WbFyuQx/kKQ==
   dependencies:
     ejs "^2.6.1"
 
-hexo-server@^1.0.0:
+hexo-server@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-1.0.0.tgz#af89fcc0a07740ad2a7f33d1d003889aab22927e"
   integrity sha512-eSY+a5oiGCG/3T6FrdrNRBkttMLJkM+oitY6ZMFowjcBiG2VNEhQmfWUDOykfvApZs4wPYBb//uXD/58tfe3mA==
@@ -808,29 +808,25 @@ hexo@hexojs/hexo:
     abbrev "^1.1.1"
     archy "^1.0.0"
     bluebird "^3.5.2"
-    chalk "^3.0.0"
+    chalk "^4.0.0"
     hexo-cli "^3.0.0"
     hexo-front-matter "^1.0.0"
-    hexo-fs "^2.0.0"
+    hexo-fs "^3.0.1"
     hexo-i18n "^1.0.0"
     hexo-log "^1.0.0"
-    hexo-util "^1.8.1"
+    hexo-renderer-nunjucks "^2.0.0"
+    hexo-util "^2.0.0"
     js-yaml "^3.12.0"
-    lodash "^4.17.11"
     micromatch "^4.0.2"
     moment "^2.22.2"
     moment-timezone "^0.5.21"
-    nunjucks "^3.1.3"
     pretty-hrtime "^1.0.3"
     resolve "^1.8.1"
     strip-ansi "^6.0.0"
-    strip-indent "^3.0.0"
-    swig-extras "0.0.1"
-    swig-templates "^2.0.3"
     text-table "^0.2.0"
     tildify "^2.0.0"
     titlecase "^1.1.2"
-    warehouse "^3.0.1"
+    warehouse "^4.0.0"
 
 highlight.js@^10.0.0:
   version "10.0.3"
@@ -1485,7 +1481,7 @@ swig-extras@0.0.1:
   dependencies:
     markdown "~0.5.0"
 
-swig-templates@^2.0.3:
+swig-templates@2.0.3, swig-templates@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/swig-templates/-/swig-templates-2.0.3.tgz#6b4c43b462175df2a8da857a2043379ec6ea6fd0"
   integrity sha512-QojPTuZWdpznSZWZDB63/grsZuDwT/7geMeGlftbJXDoYBIZEnTcKvz4iwYDv3SwfPX9/B4RtGRSXNnm3S2wwg==
